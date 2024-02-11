@@ -65,7 +65,6 @@ myProfile.hobbies.forEach(hobby => {
 myProfile.placesLived.forEach((placesLived) => {
     let dtHtml = document.createElement('dt');
     let ddHtml = document.createElement('dd');
-
     dtHtml.textContent = placesLived.place;
     ddHtml.textContent = placesLived.length;
 
