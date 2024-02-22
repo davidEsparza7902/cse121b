@@ -1,29 +1,67 @@
 // Define global variables
 const searchForm = document.getElementById('search-form');
+const filterForm = document.getElementById('filter-form');
 const searchInput = document.getElementById('search-input');
-const searchResults = document.getElementById('search-results');
-const recommendationSection = document.getElementById('recommendations');
+const booksSection = document.getElementById('books');
 const apiKey = "AIzaSyCM5oWAOySNw8YC-da2dqYedmcr4PFTVs8";
+const genreFilter = document.getElementById('genre');
+const ratingFilter = document.getElementById('rating');
+const cleanFiltersButton = document.getElementById('clean-filters');
+let books = [];
+let filteredBooks = [];
+
+filterForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission behavior
+  console.log('Filter form submitted');
+  filterBooks();
+});
+cleanFiltersButton.addEventListener('click', (event) => {
+  event.preventDefault(); // Prevent default button behavior
+  genreFilter.value = '';
+  ratingFilter.value = '';
+  filterBooks();
+});
+
+function filterBooks() {
+  filteredBooks = [...books]; // Hacer una copia de los libros para no modificar el array original
+  console.log('Original', filteredBooks); // Imprimir los libros filtrados
+  if (genreFilter.value) {
+    filteredBooks = filteredBooks.filter(book => {
+      // comparar el valor en mayúsculas
+      console.log('Buscando', genreFilter.value.toUpperCase());
+      const categories = book.volumeInfo.categories.toUpperCase();
+      const categoriesArray = categories ? categories.split(' ') : [];
+      console.log('Categorías', categoriesArray);
+      return categoriesArray.includes(genreFilter.value.toUpperCase());
+    });
+  }
+  if (ratingFilter.value) {
+    filteredBooks = filteredBooks.filter(book => {
+      return book.volumeInfo.averageRating == ratingFilter.value;
+    });
+  }
+  console.log('Filtered', filteredBooks);
+  displaySearchResults(filteredBooks);
+}
 
 
 // Event listener for search form submission
 searchForm.addEventListener('submit', async (event) => {
   event.preventDefault(); // Prevent default form submission behavior
-  
+
   const searchTerm = searchInput.value.trim(); // Get the search term
-  
+
   if (searchTerm !== '') {
     try {
-      const searchResultsData = await searchBooks(searchTerm); // Fetch search results
-      displaySearchResults(searchResultsData); // Display search results
+      books = await searchBooks(searchTerm);
+      filterBooks();
+      displaySearchResults(filteredBooks);
     } catch (error) {
       console.error('Error fetching search results:', error);
-      // Display error message to the user
-      searchResults.innerHTML = `<p>Error fetching search results. Please try again later.</p>`;
+      booksSection.innerHTML = `<p>Error fetching search results. Please try again later.</p>`;
     }
   } else {
-    // Display message to the user to enter a search term
-    searchResults.innerHTML = `<p>Please enter a search term.</p>`;
+    booksSection.innerHTML = `<p>Please enter a search term.</p>`;
   }
 });
 
@@ -38,10 +76,11 @@ async function searchBooks(searchTerm) {
 // Function to display search results on the webpage
 function displaySearchResults(results) {
   if (results.length === 0) {
-    searchResults.innerHTML = `<p>No results found. Please try a different search term.</p>`;
+    booksSection.innerHTML = `<p>No results found. Please try a different search term.</p>`;
     return;
   }
-
+  console.log('Displaying search results')
+  console.log(results);
   const resultsHTML = results.map(book => {
     const thumbnail = book.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/150'; // Use a placeholder image if thumbnail is not available
     return `
@@ -49,12 +88,14 @@ function displaySearchResults(results) {
         <img src="${thumbnail}" alt="${book.volumeInfo.title}">
         <h3>${book.volumeInfo.title}</h3>
         <p>Author(s): ${book.volumeInfo.authors ? book.volumeInfo.authors.join(', ') : 'Unknown'}</p>
+        <p>Rating: ${book.volumeInfo.averageRating || 'Not available'}</p>
+        <p>Genre: ${book.volumeInfo.categories ? book.volumeInfo.categories.join(', ') : 'Not available'}</p>
         <p>Description: ${book.volumeInfo.description || 'Not available'}</p>
       </div>
     `;
   }).join('');
 
-  searchResults.innerHTML = resultsHTML;
+  booksSection.innerHTML = resultsHTML;
 }
 
 // Function to display recommendations on the webpage
@@ -63,15 +104,20 @@ async function displayRecommendations() {
     const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=recommended&maxResults=3&key=${apiKey}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
+    books = data.items || [];
+    filterBooks();
 
-    const recommendations = data.items.map(item => {
+    const recommendations = filteredBooks.map(item => {
       return {
         title: item.volumeInfo.title,
         author: item.volumeInfo.authors ? item.volumeInfo.authors.join(', ') : 'Unknown',
         description: item.volumeInfo.description || 'Description not available',
-        thumbnail: item.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/150'
+        thumbnail: item.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/150',
+        rating: item.volumeInfo.averageRating || 'Not available',
+        genre: item.volumeInfo.categories ? item.volumeInfo.categories.join(', ') : 'Not available'
       };
     });
+    console.log(recommendations);
 
     const recommendationsHTML = recommendations.map(book => {
       return `
@@ -79,18 +125,18 @@ async function displayRecommendations() {
           <img src="${book.thumbnail}" alt="${book.title}">
           <h3>${book.title}</h3>
           <p>Author(s): ${book.author}</p>
+          <p>Rating: ${book.rating}</p>
+          <p>Genre: ${book.genre}</p>
           <p>Description: ${book.description}</p>
         </div>
       `;
     }).join('');
 
-    recommendationSection.innerHTML = recommendationsHTML;
+    booksSection.innerHTML = recommendationsHTML;
   } catch (error) {
     console.error('Error fetching recommendations:', error);
-    // Display error message to the user
-    recommendationSection.innerHTML = `<p>Error fetching recommendations. Please try again later.</p>`;
+    booksSection.innerHTML = `<p>Error fetching recommendations. Please try again later.</p>`;
   }
 }
 
-// Call the function to display recommendations when the page loads
-displayRecommendations();
+document.addEventListener('DOMContentLoaded', displayRecommendations);

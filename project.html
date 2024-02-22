@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Recommendation App</title>
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/project.css">
 </head>
 
 <body>
@@ -30,10 +31,10 @@
       <input type="text" id="search-input" placeholder="Enter a book title...">
       <button type="submit">Search</button>
     </form>
-    
+
     <!-- Form for filters -->
 
-    <form id="filters-form">
+    <form id="filter-form">
       <label for="genre">Genre:</label>
       <select id="genre" title="Choose a genre filter.">
         <option value="" disabled selected>Select Genre</option>
@@ -53,15 +54,11 @@
         <option value="2">2 stars</option>
         <option value="1">1 star</option>
       </select>
-
-      <input type="submit" value="Apply Filters">
+      <button type="submit">Apply Filters</button>
+      <button id="clean-filters">Clean Filters</button>
     </form>
 
-    <div id="search-results">
-      <!-- Book search results will be displayed here -->
-    </div>
-
-    <div id="recommendations">
+    <div id="books">
       <!-- Recommended books will be displayed here -->
     </div>
   </main>

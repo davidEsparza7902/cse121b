@@ -1,0 +1,100 @@
+{
+    "kind": "books#volume",
+    "id": "QBwnDwAAQBAJ",
+    "etag": "SZYDaV+je7Q",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/QBwnDwAAQBAJ",
+    "volumeInfo": {
+        "title": "Cien años de soledad (edición ilustrada)",
+        "authors": [
+            "Gabriel García Márquez",
+            "Luisa Rivera"
+        ],
+        "publisher": "RANDOM HOUSE",
+        "publishedDate": "2017-06-17",
+        "description": "En ocasión del 50 aniversario de la publicación de Cien años de soledad, llega una edición con ilustraciones inéditas de la artista chilena Luisa Rivera y con una tipografía creada por el hijo del autor, Gonzalo García Barcha. Una edición conmemorativa de una novela clave en la historia de la literatura, una obra que todos deberíamos tener en nuestras estanterías. «Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.» Con esta cita comienza una de las novelas más importantes del siglo XX y una de las aventuras literarias más fascinantes de todos los tiempos. Millones de ejemplares de Cien años de soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso «boca a boca» -como gustaba decir el escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero. El mejor homenaje a Gabo es leerlo. Pablo Neruda dijo... «El Quijote de nuestro tiempo.»",
+        "industryIdentifiers": [
+            {
+                "type": "ISBN_13",
+                "identifier": "9788439733836"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "8439733836"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 531,
+        "printType": "BOOK",
+        "categories": [
+            "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.10.9.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=QBwnDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=QBwnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.pe/books?id=QBwnDwAAQBAJ&printsec=frontcover&dq=100+a%C3%B1os+de+soledad&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "PE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 25.72,
+            "currencyCode": "PEN"
+        },
+        "retailPrice": {
+            "amount": 25.72,
+            "currencyCode": "PEN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ&rdid=book-QBwnDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+            {
+                "finskyOfferType": 1,
+                "listPrice": {
+                    "amountInMicros": 25720000,
+                    "currencyCode": "PEN"
+                },
+                "retailPrice": {
+                    "amountInMicros": 25720000,
+                    "currencyCode": "PEN"
+                }
+            }
+        ]
+    },
+    "accessInfo": {
+        "country": "PE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.pe/books/download/Cien_a%C3%B1os_de_soledad_edici%C3%B3n_ilustrada-sample-epub.acsm?id=QBwnDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.pe/books/download/Cien_a%C3%B1os_de_soledad_edici%C3%B3n_ilustrada-sample-pdf.acsm?id=QBwnDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QBwnDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "En ocasión del 50 aniversario de la publicación de Cien años de soledad, llega una edición con ilustraciones inéditas de la artista chilena Luisa Rivera y con una tipografía creada por el hijo del autor, Gonzalo García Barcha."
+    }
+}
