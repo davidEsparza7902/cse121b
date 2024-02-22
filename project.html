@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Recommendation App</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+    <h1>Project</h1>
+    <h2>Book Recommendation App</h2>
+
+    <!-- Search form -->
+    <form id="search-form">
+      <label for="search-input">Search:</label>
+      <input type="text" id="search-input" placeholder="Enter a book title...">
+      <button type="submit">Search</button>
+    </form>
+    
+    <!-- Form for filters -->
+
+    <form id="filters-form">
+      <label for="genre">Genre:</label>
+      <select id="genre" title="Choose a genre filter.">
+        <option value="" disabled selected>Select Genre</option>
+        <option value="fiction">Fiction</option>
+        <option value="nonfiction">Nonfiction</option>
+        <option value="mystery">Mystery</option>
+        <option value="fantasy">Fantasy</option>
+        <!-- Add more genres as needed -->
+      </select>
+
+      <label for="rating">Rating:</label>
+      <select id="rating" title="Choose a rating filter.">
+        <option value="" disabled selected>Select Rating</option>
+        <option value="5">5 stars</option>
+        <option value="4">4 stars</option>
+        <option value="3">3 stars</option>
+        <option value="2">2 stars</option>
+        <option value="1">1 star</option>
+      </select>
+
+      <input type="submit" value="Apply Filters">
+    </form>
+
+    <div id="search-results">
+      <!-- Book search results will be displayed here -->
+    </div>
+
+    <div id="recommendations">
+      <!-- Recommended books will be displayed here -->
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 05 - Fetching Temple Data | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+
+</html>
