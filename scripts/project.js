@@ -1,14 +1,17 @@
-// Define global variables
+
 const searchForm = document.getElementById('search-form');
 const filterForm = document.getElementById('filter-form');
 const searchInput = document.getElementById('search-input');
 const booksSection = document.getElementById('books');
-const apiKey = "AIzaSyCM5oWAOySNw8YC-da2dqYedmcr4PFTVs8";
+const apiKey = "AIzaSyCDLrUZZXELnrfBmfQwDIvdVOTWTNMQGRQ";
 const genreFilter = document.getElementById('genre');
 const ratingFilter = document.getElementById('rating');
 const cleanFiltersButton = document.getElementById('clean-filters');
 let books = [];
 let filteredBooks = [];
+
+
+
 
 filterForm.addEventListener('submit', (event) => {
   event.preventDefault(); // Prevent default form submission behavior
@@ -27,17 +30,22 @@ function filterBooks() {
   console.log('Original', filteredBooks); // Imprimir los libros filtrados
   if (genreFilter.value) {
     filteredBooks = filteredBooks.filter(book => {
-      // comparar el valor en mayúsculas
-      console.log('Buscando', genreFilter.value.toUpperCase());
-      const categories = book.volumeInfo.categories.toUpperCase();
-      const categoriesArray = categories ? categories.split(' ') : [];
-      console.log('Categorías', categoriesArray);
-      return categoriesArray.includes(genreFilter.value.toUpperCase());
+      const category = genreFilter.value;
+      if (!book.volumeInfo.categories) {
+        return false;
+      }
+      const categories = book.volumeInfo.categories[0] || '';
+
+      return categories.includes(category);
     });
   }
   if (ratingFilter.value) {
     filteredBooks = filteredBooks.filter(book => {
-      return book.volumeInfo.averageRating == ratingFilter.value;
+      const rating = ratingFilter.value;
+      if (!book.volumeInfo.averageRating) {
+        return false;
+      }
+      return book.volumeInfo.averageRating >= ratingFilter.value;
     });
   }
   console.log('Filtered', filteredBooks);
@@ -54,6 +62,7 @@ searchForm.addEventListener('submit', async (event) => {
   if (searchTerm !== '') {
     try {
       books = await searchBooks(searchTerm);
+      // imprimir la cadena JSON en la consola
       filterBooks();
       displaySearchResults(filteredBooks);
     } catch (error) {
@@ -117,7 +126,6 @@ async function displayRecommendations() {
         genre: item.volumeInfo.categories ? item.volumeInfo.categories.join(', ') : 'Not available'
       };
     });
-    console.log(recommendations);
 
     const recommendationsHTML = recommendations.map(book => {
       return `
@@ -140,3 +148,11 @@ async function displayRecommendations() {
 }
 
 document.addEventListener('DOMContentLoaded', displayRecommendations);
+// document.addEventListener('DOMContentLoaded', () => {
+//   fetch('../mocks/libros.json').then(response => response.json()).then(data => {
+//     books = data;
+//     filteredBooks = [...books];
+//     console.log('Libros', books);
+//     displaySearchResults(books);
+//   });
+// });

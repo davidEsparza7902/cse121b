@@ -1,0 +1,733 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "ESeaAAAAIAAJ",
+        "etag": "CHW3CqUHCXo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ESeaAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad",
+            "authors": [
+                "Gabriel García Márquez"
+            ],
+            "publisher": "Real Academia Espanola",
+            "publishedDate": "2007",
+            "description": "CONTENIDO: Lo que sé de Gabriel / Álvaro Mutis / - Para darle nombre a América / Carlos Fuentes / - Cien años de Soledad. Realidad total. Novela total / Mario Vargas Llosa / - Gabriel García Márquez. En busca de la verdad poética / Víctor García de la Concha / - Algunas literariedades de Cien años de Soledad / Claudia Guillén / - García Márquez y Cien años de soledad en la novela hispanoamericana / Pedro Luis Barcia.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCSC:32106018762002"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 764,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 4.5,
+            "ratingsCount": 48,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.8.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ESeaAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ESeaAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=ESeaAAAAIAAJ&q=100+a%C3%B1os+de+soledad&dq=100+a%C3%B1os+de+soledad&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=ESeaAAAAIAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad.html?hl=&id=ESeaAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ESeaAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "CONTENIDO: Lo que sé de Gabriel / Álvaro Mutis / - Para darle nombre a América / Carlos Fuentes / - Cien años de Soledad. Realidad total. Novela total / Mario Vargas Llosa / - Gabriel García Márquez."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "uAl_BwAAQBAJ",
+        "etag": "vESfcqFMkZk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/uAl_BwAAQBAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad",
+            "authors": [
+                "Gabriel García Márquez"
+            ],
+            "publisher": "Grupo Planeta Spain",
+            "publishedDate": "2015-03-20",
+            "description": "Mito por derecho propio, saludada por sus lectores como la obra en español más importante después de la Biblia, Cien años de soledad cuenta la saga de la familia Buendía y su maldición, que castiga el matrimonio entre parientes dándoles hijos con cola de cerdo. Como un río desbordante, a lo largo de un siglo se entretejerán sus destinos por medio de sucesos maravillosos en el fantástico pueblo de Macondo, en una narración que es la cumbre indiscutible del realismo mágico y la literatura del boom. Alegoría universal, es también una visión de Latinoamérica y una parábola sobre la historia humana.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9786070726729"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "6070726723"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 440,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.22.17.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=uAl_BwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=uAl_BwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=uAl_BwAAQBAJ&dq=100+a%C3%B1os+de+soledad&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=uAl_BwAAQBAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad.html?hl=&id=uAl_BwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=uAl_BwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Mito por derecho propio, saludada por sus lectores como la obra en español más importante después de la Biblia, Cien años de soledad cuenta la saga de la familia Buendía y su maldición, que castiga el matrimonio entre parientes ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "2Wf0zwEACAAJ",
+        "etag": "wm5jvlmgDFc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/2Wf0zwEACAAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad (2015) TD",
+            "authors": [
+                "Gabriel García Márquez"
+            ],
+            "publishedDate": "2021-10-15",
+            "description": "«Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas había que señalarlas con el dedo.» Cien años de soledad cuenta la saga de la familia Buendía y su maldición, que castiga el matrimonio entre parientes dándoles hijos con cola de cerdo. Como un río desbordante, a lo largo de un siglo se entretejerán sus destinos por medio de sucesos maravillosos en el fantástico pueblo de Macondo, en una narración que es la cumbre indiscutible del realismo mágico y la literatura del boom. Alegoría universal, es también una visión de Latinoamérica y una parábola sobre la historia humana.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "6070780876"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9786070780875"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 0,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=2Wf0zwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=2Wf0zwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad_2015_TD.html?hl=&id=2Wf0zwEACAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=2Wf0zwEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "«Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "QBwnDwAAQBAJ",
+        "etag": "zmrUH1/dPjM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/QBwnDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad (edición ilustrada)",
+            "authors": [
+                "Gabriel García Márquez",
+                "Luisa Rivera"
+            ],
+            "publisher": "RANDOM HOUSE",
+            "publishedDate": "2017-06-17",
+            "description": "En ocasión del 50 aniversario de la publicación de Cien años de soledad, llega una edición con ilustraciones inéditas de la artista chilena Luisa Rivera y con una tipografía creada por el hijo del autor, Gonzalo García Barcha. Una edición conmemorativa de una novela clave en la historia de la literatura, una obra que todos deberíamos tener en nuestras estanterías. «Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.» Con esta cita comienza una de las novelas más importantes del siglo XX y una de las aventuras literarias más fascinantes de todos los tiempos. Millones de ejemplares de Cien años de soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso «boca a boca» -como gustaba decir el escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero. El mejor homenaje a Gabo es leerlo. Pablo Neruda dijo... «El Quijote de nuestro tiempo.»",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788439733836"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8439733836"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 531,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 8,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.10.9.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=QBwnDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=QBwnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=QBwnDwAAQBAJ&printsec=frontcover&dq=100+a%C3%B1os+de+soledad&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 25.72,
+                "currencyCode": "PEN"
+            },
+            "retailPrice": {
+                "amount": 25.72,
+                "currencyCode": "PEN"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=QBwnDwAAQBAJ&rdid=book-QBwnDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 25720000,
+                        "currencyCode": "PEN"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 25720000,
+                        "currencyCode": "PEN"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.pe/books/download/Cien_a%C3%B1os_de_soledad_edici%C3%B3n_ilustrada-sample-epub.acsm?id=QBwnDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.pe/books/download/Cien_a%C3%B1os_de_soledad_edici%C3%B3n_ilustrada-sample-pdf.acsm?id=QBwnDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=QBwnDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "En ocasión del 50 aniversario de la publicación de Cien años de soledad, llega una edición con ilustraciones inéditas de la artista chilena Luisa Rivera y con una tipografía creada por el hijo del autor, Gonzalo García Barcha."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "7lj5EHcChqYC",
+        "etag": "oEB261W4Pfw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/7lj5EHcChqYC",
+        "volumeInfo": {
+            "title": "Cien años de soledad / One Hundred Years of Solitude",
+            "authors": [
+                "Gabriel García Márquez"
+            ],
+            "publisher": "Vintage Espanol",
+            "publishedDate": "2009-09-22",
+            "description": "\"La aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero. El personaje principal es Macondo, el pueblo mismo, que sobrevive al olvido por cien años de fracasos personales y acontecimientos fantásticos, para finalmente desaparecer sin rastro alguno, al igual que toda su historia\" --from Amazon.com.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780307474728"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0307474720"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 498,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 4,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.4.0.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=7lj5EHcChqYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=7lj5EHcChqYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=7lj5EHcChqYC&dq=100+a%C3%B1os+de+soledad&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=7lj5EHcChqYC&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad_One_Hundred_Years.html?hl=&id=7lj5EHcChqYC"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=7lj5EHcChqYC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "&quot;La aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "ASsfAQAAIAAJ",
+        "etag": "AfSdx22ulns",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ASsfAQAAIAAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad",
+            "authors": [
+                "Gabriel García Márquez"
+            ],
+            "publisher": "I.B.D. Limited",
+            "publishedDate": "1982",
+            "description": "This recent edition of One hundred years of solitude has an introductory essay on the author and his work.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "STANFORD:36105123071610"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 466,
+            "printType": "BOOK",
+            "categories": [
+                "Colombian fiction"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "4.7.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ASsfAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ASsfAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=ASsfAQAAIAAJ&q=100+a%C3%B1os+de+soledad&dq=100+a%C3%B1os+de+soledad&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=ASsfAQAAIAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad.html?hl=&id=ASsfAQAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ASsfAQAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This recent edition of One hundred years of solitude has an introductory essay on the author and his work."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "gFrpAAAAMAAJ",
+        "etag": "BnbiQb8Gwbg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/gFrpAAAAMAAJ",
+        "volumeInfo": {
+            "title": "\"Cien años de soledad\" y un homenaje",
+            "subtitle": "discursos",
+            "authors": [
+                "Carlos Fuentes",
+                "Gabriel García Márquez"
+            ],
+            "publisher": "Fondo de Cultura Economica USA",
+            "publishedDate": "2007",
+            "description": "En una bella edicion y dentro de su coleccion Centzontle, el FCE recupera los discursos de Gabriel Garcia Marquez y Carlos Fuentes pronunciados en torno a una conmemoracion unica: los 80 anos del Premio Nobel colombiano y los 40 anos de la novela Cien anos de soledad. Una celebracion de la cual el lector puede ser testigo privilegiado a traves de este libro. Garcia Marquez recuerda en estas paginas que \"ni en el mas delirante\" de sus suenos imagino que su novela llegaria a ser leida por casi 50 millones de lectores, un numero tal de personas que si vivieran en un solo pedazo de tierra seria uno de los 20 paises mas poblados del mundo.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UTEXAS:059173030609980"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 50,
+            "printType": "BOOK",
+            "averageRating": 3.5,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=gFrpAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=gFrpAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=gFrpAAAAMAAJ&q=100+a%C3%B1os+de+soledad&dq=100+a%C3%B1os+de+soledad&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=gFrpAAAAMAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad_y_un_homenaje.html?hl=&id=gFrpAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=gFrpAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "En una bella edicion y dentro de su coleccion Centzontle, el FCE recupera los discursos de Gabriel Garcia Marquez y Carlos Fuentes pronunciados en torno a una conmemoracion unica: los 80 anos del Premio Nobel colombiano y los 40 anos de la ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "haBdAAAAMAAJ",
+        "etag": "U5yFnRuGtiA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/haBdAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Cien años de soledad",
+            "subtitle": "novela de la desmitificación",
+            "authors": [
+                "Diana Morán Garay"
+            ],
+            "publishedDate": "1988",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015016938287"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 106,
+            "printType": "BOOK",
+            "categories": [
+                "Macondo (Imaginary place)"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.5.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=haBdAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=haBdAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=haBdAAAAMAAJ&q=100+a%C3%B1os+de+soledad&dq=100+a%C3%B1os+de+soledad&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=haBdAAAAMAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_soledad.html?hl=&id=haBdAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=haBdAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "g4CFjwEACAAJ",
+        "etag": "jMTiHXVzOCs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/g4CFjwEACAAJ",
+        "volumeInfo": {
+            "title": "100 años de Soledad",
+            "authors": [
+                "Gabriel Garcia Marquez"
+            ],
+            "publisher": "Createspace Independent Publishing Platform",
+            "publishedDate": "1967-05-01",
+            "description": "Dos familias, la de los Buendía y los Iguarán, han acabado por dar luz a un muchacho con cola de iguana a fuerza de casarse entre sí. Úrsula Iguarán, recién casada con José Arcadio Buendía, se niega a que el matrimonio se consume por temor a que también les nazca un hijo con cola. Ello da pie a que Prudencio Aguilar eche en cara José Arcadio su poco valor. José Arcadio acaba matándole por su provocación, pero el muerto se le aparece constantemente.Huyendo del fantasma del muerto, y al frente de un grupo de compañeros, José Arcadio llega a una aldea de apenas \"veinte casas de barro y cañabrava construida a la orilla de un río\" y se queda a vivir en ella. Esta aldea se llama Macondo, mítico escenario de ésta y otras obras del autor. El único contacto que sus habitantes tienen con el exterior lo constituyen las periódicas visitas de unos gitanos capitaneados por un tal Melquíades, que, además de conocer el sánscrito, introducen en Macondo el hielo y el imán.El libro se inicia, precisamente cuando Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía, hijo de José Arcadio, recuerda aquella tarde remota en que su padre lo llevó a conocer el hielo. Así comienza el libro, pero no la historia, que abarca, en realidad, cuatrocientos años y nos informa acerca de innumerables antepasados de José Arcadio y de su esposa Úrsula, revelando en su construcción, como gran parte de la narrativa hispanoamericana del momento, la influencia de Faulkner: su acción no avanza de manera cronológica, sino a brincos, por flashes que nos permiten conocer fragmentos de ella y sólo luego, al final, proporcionamos una visión global.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1530198836"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781530198832"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 232,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=g4CFjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=g4CFjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=g4CFjwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=g4CFjwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/100_a%C3%B1os_de_Soledad.html?hl=&id=g4CFjwEACAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=g4CFjwEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Dos familias, la de los Buendía y los Iguarán, han acabado por dar luz a un muchacho con cola de iguana a fuerza de casarse entre sí. Úrsula Iguarán, recién casada con José Arcadio Buendía, se niega a que el matrimonio se consume ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "p0XCuwEACAAJ",
+        "etag": "kGY5aj7BfZg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/p0XCuwEACAAJ",
+        "volumeInfo": {
+            "title": "Cien años de Soledad",
+            "authors": [
+                "Gabriel Marquez",
+                "Angel Roberts"
+            ],
+            "publishedDate": "2018-09-09",
+            "description": "\"Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo\". Con estas palabras empieza una novela ya legendaria en los anales de la literatura universal, una de las aventuras literarias más fascinantes de nuestro siglo. Millones de ejemplares de Cien años de Soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso \"boca a boca\".La Real Academia Española y la Asociación de Academias de la Lengua Española presentan Cien años de soledad, una edición popular conmemorativa cuyo texto ha revisado el propio Gabriel García Márquez.A pesar del esmero con que el propio escritor corrigió las pruebas de la primera edición (Sudamericana, 1967), se deslizaron en ella indeseadas erratas y expresiones dudosas que editores sucesivos han tratado de resolver con mejor o peor fortuna. Un estudio comparativo detallado de cada caso ha permitido ahora presentar una propuesta razonada al propio autor, que ha querido revisar las pruebas de imprenta completas, enriqueciendo así esta edición con su trabajo de depuración y fijación del texto.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1727215788"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781727215786"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 222,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "language": "es",
+            "previewLink": "http://books.google.com.pe/books?id=p0XCuwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com.pe/books?id=p0XCuwEACAAJ&dq=100+a%C3%B1os+de+soledad&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cien_a%C3%B1os_de_Soledad.html?hl=&id=p0XCuwEACAAJ"
+        },
+        "saleInfo": {
+            "country": "PE",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PE",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=p0XCuwEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Millones de ejemplares de Cien años de Soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso &quot;boca a boca&quot;.La Real Academia Española y la Asociación de Academias de la Lengua ..."
+        }
+    }
+]
